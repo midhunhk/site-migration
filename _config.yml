@@ -1,0 +1,38 @@
+lang:                en
+permalink:           pretty
+title:               Midhun Harikumar
+tagline:             Random Thoughts!
+url:                 https://midhunhk.github.io
+paginate:            8
+baseurl:             
+tag_page:            /tags/
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Original About/contact
+author:
+  name:              Midhunhk
+  url:               https://midhunhk.github.io/bio/
+  email:             midhunhk at gmail.com
+
+# Custom vars
+version:             1.2.0
+github:
+  repo:              https://github.com/midhunhk/midhunhk.github.io
+
+# Google services
+google_analytics: UA-54193565-1
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap

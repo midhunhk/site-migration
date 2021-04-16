@@ -1,0 +1,67 @@
+/*
+ * Custom styles for the site.
+ * @author: Midhunhk
+ */
+
+/* custom classes*/
+.custom-post-header{ height: 200px; margin: 10px 0; border-radius: 5px; text-align: center;}
+.custom-post-title{ padding-top: 80px; vertical-align: middle; font-family: 'Merriweather', serif; font-size: 1.8rem; color: #ffffff;}
+.featured{ margin: 10px 0;}
+.post-tag{ margin-bottom: 1em;}
+
+/* Some Colorful backgrounds for the header*/
+.orange{background-color: #ff9900;}
+.violet{background-color: rgba(123, 31, 162, 1); }
+.teal{ background-color: #028482;}
+.mexican-red{ background-color: #A31E39; }
+.midnight-blue{background-color: #003366; }
+.rocket-red{ background-color: #FB3745; }
+.gulf-stream{background-color: #75b5aa; }
+.caribbean-green{ background-color: #02CCA4;}
+
+/* Share Bar */
+#share-bar {font-size: 20px;}
+
+/* Title */
+#share-bar h4 { margin-bottom: 10px;font-weight: 500; }
+
+/* All buttons */
+.share-buttons {}
+
+/* Each button */
+.share-button {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-right: 3px;
+    border: 1px solid #D3D6D2;
+    padding: 5px 10px 5px 10px;
+}
+.share-button:hover {opacity: 1;color: #ffffff;}
+
+/* Facebook button */
+.fa-facebook-official {color: #3b5998;}
+.fa-facebook-official:hover {background-color: #3b5998;}
+
+/* Twitter button */
+.fa-twitter {color: #55acee;}
+.fa-twitter:hover {background-color: #55acee;}
+
+/* Pinterest button */
+.fa-pinterest-p {color: #cb2027;}
+.fa-pinterest-p:hover {background-color: #cb2027;}
+
+/* Tumblr button */
+.fa-tumblr {color: #32506d;}
+.fa-tumblr:hover {background-color: #32506d;}
+
+/* Reddit button */
+.fa-reddit-alien {color: #ff4500;}
+.fa-reddit-alien:hover {background-color: #ff4500;}
+
+/* LinkedIn button */
+.fa-linkedin { color: #007bb5;}
+.fa-linkedin:hover {background-color: #007bb5;}
+
+/* Email button */
+.fa-envelope {color: #444444;}
+.fa-envelope:hover { background-color: #444444;}
