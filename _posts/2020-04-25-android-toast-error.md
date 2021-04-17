@@ -3,6 +3,7 @@ layout: post
 title: Android error on Toast
 category: Dev
 comments: true
+summary: Solving 'java.lang.RuntimeException: Can't toast on a thread that has not called Looper.prepare()'.
 tags: [android, kotlin, development]
 ---
 I was trying to Toast a message to show a debug message from a `Fragment` method that I had written a couple of days ago.

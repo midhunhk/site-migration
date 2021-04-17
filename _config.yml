@@ -1,11 +1,11 @@
 lang:                en
-permalink:           pretty
 title:               Midhun Harikumar
 tagline:             Random Thoughts!
 url:                 https://midhunhk.github.io
-paginate:            8
-baseurl:             
-tag_page:            /tags/
+paginate:            6
+paginate_path:       "/blog/page:num/"
+theme:               bulma-clean-theme
+permalink:           pretty
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
@@ -24,15 +24,19 @@ author:
   email:             midhunhk at gmail.com
 
 # Custom vars
-version:             1.2.0
+version:             2.0.0
 github:
   repo:              https://github.com/midhunhk/midhunhk.github.io
 
 # Google services
 google_analytics: UA-54193565-1
 
+header_pages:
+  - blog/index.html
+  - about.md
+
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-sitemap
