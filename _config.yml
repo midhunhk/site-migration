@@ -8,9 +8,10 @@ permalink:           pretty
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+# Only use during development
+#sass:
+#  sass_dir:          _sass
+#  style:            :compressed
 
 # Plugins
 plugins:
